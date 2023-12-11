@@ -508,14 +508,14 @@ $('#comunas').html(htmlComuna);
 
 $('#comunas').change(function () {
 if ($(this).val() == 'sin-region') {
-alertify.alert('selecciones Región').set('label', 'Aceptar'); 
+alert('selecciones Región'); 
 } else if ($(this).val() == 'sin-comuna') {
-alertify.alert('selecciones Comuna').set('label', 'Aceptar'); 
+alert('selecciones Comuna'); 
 }
 });
 
 $('#regiones').change(function () {
 if ($(this).val() == 'sin-region') {
-alertify.alert('selecciones Región').set('label', 'Aceptar'); 
+alert('selecciones Región'); 
 }
 });
